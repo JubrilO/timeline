@@ -12,6 +12,20 @@
 		89F9298B1E74C41900B02EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89F929891E74C41900B02EEC /* Main.storyboard */; };
 		89F9298D1E74C41900B02EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F9298C1E74C41900B02EEC /* Assets.xcassets */; };
 		89F929901E74C41900B02EEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89F9298E1E74C41900B02EEC /* LaunchScreen.storyboard */; };
+		89F929A11E74CAAB00B02EEC /* proximanova-bold-webfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = 89F929991E74CAAB00B02EEC /* proximanova-bold-webfont.eot */; };
+		89F929A21E74CAAB00B02EEC /* proximanova-bold-webfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = 89F9299A1E74CAAB00B02EEC /* proximanova-bold-webfont.svg */; };
+		89F929A31E74CAAB00B02EEC /* proximanova-bold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89F9299B1E74CAAB00B02EEC /* proximanova-bold-webfont.ttf */; };
+		89F929A41E74CAAB00B02EEC /* proximanova-bold-webfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = 89F9299C1E74CAAB00B02EEC /* proximanova-bold-webfont.woff */; };
+		89F929A51E74CAAB00B02EEC /* proximanova-regular-webfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = 89F9299D1E74CAAB00B02EEC /* proximanova-regular-webfont.eot */; };
+		89F929A61E74CAAB00B02EEC /* proximanova-regular-webfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = 89F9299E1E74CAAB00B02EEC /* proximanova-regular-webfont.svg */; };
+		89F929A71E74CAAB00B02EEC /* proximanova-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89F9299F1E74CAAB00B02EEC /* proximanova-regular-webfont.ttf */; };
+		89F929A81E74CAAB00B02EEC /* proximanova-regular-webfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = 89F929A01E74CAAB00B02EEC /* proximanova-regular-webfont.woff */; };
+		89F929AB1E74D0F700B02EEC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F929AA1E74D0F700B02EEC /* LoginViewController.swift */; };
+		89F929AF1E74D1FA00B02EEC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F929AE1E74D1FA00B02EEC /* Constants.swift */; };
+		89F929B11E74D7F400B02EEC /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F929B01E74D7F400B02EEC /* QuestionViewController.swift */; };
+		89F929B31E74E3FD00B02EEC /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F929B21E74E3FD00B02EEC /* AnswerViewController.swift */; };
+		89F929B51E74E43600B02EEC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F929B41E74E43600B02EEC /* ProfileViewController.swift */; };
+		89F929B71E74E69700B02EEC /* AnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F929B61E74E69700B02EEC /* AnswerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +36,21 @@
 		89F9298C1E74C41900B02EEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89F9298F1E74C41900B02EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89F929911E74C41900B02EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89F929991E74CAAB00B02EEC /* proximanova-bold-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-bold-webfont.eot"; sourceTree = "<group>"; };
+		89F9299A1E74CAAB00B02EEC /* proximanova-bold-webfont.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "proximanova-bold-webfont.svg"; sourceTree = "<group>"; };
+		89F9299B1E74CAAB00B02EEC /* proximanova-bold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-bold-webfont.ttf"; sourceTree = "<group>"; };
+		89F9299C1E74CAAB00B02EEC /* proximanova-bold-webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-bold-webfont.woff"; sourceTree = "<group>"; };
+		89F9299D1E74CAAB00B02EEC /* proximanova-regular-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-regular-webfont.eot"; sourceTree = "<group>"; };
+		89F9299E1E74CAAB00B02EEC /* proximanova-regular-webfont.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "proximanova-regular-webfont.svg"; sourceTree = "<group>"; };
+		89F9299F1E74CAAB00B02EEC /* proximanova-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-regular-webfont.ttf"; sourceTree = "<group>"; };
+		89F929A01E74CAAB00B02EEC /* proximanova-regular-webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-regular-webfont.woff"; sourceTree = "<group>"; };
+		89F929A91E74CAB700B02EEC /* Hoefler Text.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hoefler Text.ttc"; sourceTree = "<group>"; };
+		89F929AA1E74D0F700B02EEC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		89F929AE1E74D1FA00B02EEC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Helpers/Constants.swift; sourceTree = "<group>"; };
+		89F929B01E74D7F400B02EEC /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuestionViewController.swift; path = Controller/QuestionViewController.swift; sourceTree = "<group>"; };
+		89F929B21E74E3FD00B02EEC /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnswerViewController.swift; path = Controller/AnswerViewController.swift; sourceTree = "<group>"; };
+		89F929B41E74E43600B02EEC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = Controller/ProfileViewController.swift; sourceTree = "<group>"; };
+		89F929B61E74E69700B02EEC /* AnswerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnswerTableViewCell.swift; path = View/AnswerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +84,68 @@
 			isa = PBXGroup;
 			children = (
 				89F929851E74C41900B02EEC /* AppDelegate.swift */,
-				89F929871E74C41900B02EEC /* ViewController.swift */,
-				89F929891E74C41900B02EEC /* Main.storyboard */,
-				89F9298C1E74C41900B02EEC /* Assets.xcassets */,
-				89F9298E1E74C41900B02EEC /* LaunchScreen.storyboard */,
-				89F929911E74C41900B02EEC /* Info.plist */,
+				89F929B81E74E69D00B02EEC /* View */,
+				89F929AC1E74D1B200B02EEC /* Contoller */,
+				89F929AD1E74D1C200B02EEC /* Helpers */,
 			);
 			path = timeline;
+			sourceTree = "<group>";
+		};
+		89F929971E74CA7200B02EEC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				89F929A91E74CAB700B02EEC /* Hoefler Text.ttc */,
+				89F929981E74CAAB00B02EEC /* proxima */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		89F929981E74CAAB00B02EEC /* proxima */ = {
+			isa = PBXGroup;
+			children = (
+				89F929991E74CAAB00B02EEC /* proximanova-bold-webfont.eot */,
+				89F9299A1E74CAAB00B02EEC /* proximanova-bold-webfont.svg */,
+				89F9299B1E74CAAB00B02EEC /* proximanova-bold-webfont.ttf */,
+				89F9299C1E74CAAB00B02EEC /* proximanova-bold-webfont.woff */,
+				89F9299D1E74CAAB00B02EEC /* proximanova-regular-webfont.eot */,
+				89F9299E1E74CAAB00B02EEC /* proximanova-regular-webfont.svg */,
+				89F9299F1E74CAAB00B02EEC /* proximanova-regular-webfont.ttf */,
+				89F929A01E74CAAB00B02EEC /* proximanova-regular-webfont.woff */,
+			);
+			path = proxima;
+			sourceTree = "<group>";
+		};
+		89F929AC1E74D1B200B02EEC /* Contoller */ = {
+			isa = PBXGroup;
+			children = (
+				89F929B41E74E43600B02EEC /* ProfileViewController.swift */,
+				89F929B21E74E3FD00B02EEC /* AnswerViewController.swift */,
+				89F929871E74C41900B02EEC /* ViewController.swift */,
+				89F929AA1E74D0F700B02EEC /* LoginViewController.swift */,
+				89F929B01E74D7F400B02EEC /* QuestionViewController.swift */,
+			);
+			name = Contoller;
+			sourceTree = "<group>";
+		};
+		89F929AD1E74D1C200B02EEC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				89F929971E74CA7200B02EEC /* Fonts */,
+				89F9298C1E74C41900B02EEC /* Assets.xcassets */,
+				89F9298E1E74C41900B02EEC /* LaunchScreen.storyboard */,
+				89F929AE1E74D1FA00B02EEC /* Constants.swift */,
+				89F929911E74C41900B02EEC /* Info.plist */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		89F929B81E74E69D00B02EEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89F929891E74C41900B02EEC /* Main.storyboard */,
+				89F929B61E74E69700B02EEC /* AnswerTableViewCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +180,7 @@
 				TargetAttributes = {
 					89F929811E74C41900B02EEC = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = E5H7W73394;
+						DevelopmentTeam = NYY67KPY7R;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,8 +209,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				89F929901E74C41900B02EEC /* LaunchScreen.storyboard in Resources */,
+				89F929A81E74CAAB00B02EEC /* proximanova-regular-webfont.woff in Resources */,
+				89F929A41E74CAAB00B02EEC /* proximanova-bold-webfont.woff in Resources */,
+				89F929A51E74CAAB00B02EEC /* proximanova-regular-webfont.eot in Resources */,
 				89F9298D1E74C41900B02EEC /* Assets.xcassets in Resources */,
+				89F929A11E74CAAB00B02EEC /* proximanova-bold-webfont.eot in Resources */,
+				89F929A61E74CAAB00B02EEC /* proximanova-regular-webfont.svg in Resources */,
+				89F929A71E74CAAB00B02EEC /* proximanova-regular-webfont.ttf in Resources */,
 				89F9298B1E74C41900B02EEC /* Main.storyboard in Resources */,
+				89F929A31E74CAAB00B02EEC /* proximanova-bold-webfont.ttf in Resources */,
+				89F929A21E74CAAB00B02EEC /* proximanova-bold-webfont.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +229,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F929B31E74E3FD00B02EEC /* AnswerViewController.swift in Sources */,
+				89F929AB1E74D0F700B02EEC /* LoginViewController.swift in Sources */,
+				89F929B11E74D7F400B02EEC /* QuestionViewController.swift in Sources */,
 				89F929881E74C41900B02EEC /* ViewController.swift in Sources */,
+				89F929B51E74E43600B02EEC /* ProfileViewController.swift in Sources */,
 				89F929861E74C41900B02EEC /* AppDelegate.swift in Sources */,
+				89F929AF1E74D1FA00B02EEC /* Constants.swift in Sources */,
+				89F929B71E74E69700B02EEC /* AnswerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,11 +357,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E5H7W73394;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NYY67KPY7R;
 				INFOPLIST_FILE = timeline/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jubril.timeline;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,11 +374,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E5H7W73394;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NYY67KPY7R;
 				INFOPLIST_FILE = timeline/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jubril.timeline;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
