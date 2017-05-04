@@ -9,5 +9,8 @@
 import UIKit
 
 class AnswerTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var backgroundOverlay: UIView!
     @IBOutlet weak var userLabel: UILabel!
+    var correct: Bool?
 }

@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.4.0)
+  - Hero (0.3.4)
+  - Locksmith (3.0.0)
+  - SCPageViewController (2.0.9):
+    - SCScrollView (~> 1.1)
+  - SCScrollView (1.1.7)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - Hero
+  - Locksmith
+  - SCPageViewController
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Hero: f6977e81221274db60f13a4a0e51337dd3e0100f
+  Locksmith: 310b4cc5031af5728bf4db5d4de547a5100c6a3b
+  SCPageViewController: 46956ddd2d0dcae7430f8f147965db4e803719c7
+  SCScrollView: 59e93b7f230e7ee3c963f06dd0c67b57b8b9e237
+
+PODFILE CHECKSUM: 0b8d69364bf1c7629ebe616d144da4c1ad5f3df1
+
+COCOAPODS: 1.2.0
